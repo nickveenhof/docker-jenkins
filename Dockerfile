@@ -1,5 +1,5 @@
 FROM stackbrew/ubuntu:14.04
-MAINTAINER Allan Espinosa "allan.espinosa@outlook.com"
+MAINTAINER Nick Veenhof "nick.veenhof@acquia.com"
 
 RUN apt-get update && apt-get clean
 RUN apt-get install -q -y openjdk-7-jre-headless
