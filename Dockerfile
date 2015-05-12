@@ -3,7 +3,7 @@ MAINTAINER Nick Veenhof "nick.veenhof@acquia.com"
 
 RUN apt-get update && apt-get clean
 RUN apt-get install -q -y openjdk-7-jre-headless
-RUN apt-get install -q -y git wget
+RUN apt-get install -q -y git wget s3cmd
 RUN apt-get install -q -y rabbitmq-server
 RUN apt-get clean
 
